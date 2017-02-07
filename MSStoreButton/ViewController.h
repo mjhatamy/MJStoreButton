@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MJStoreButton.h"
 
 @interface ViewController : UIViewController
 

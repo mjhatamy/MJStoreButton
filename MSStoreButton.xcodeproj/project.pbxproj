@@ -14,6 +14,7 @@
 		C3FFBA581E4A76900079F43D /* MSStoreButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3FFBA561E4A76900079F43D /* MSStoreButton.xcdatamodeld */; };
 		C3FFBA5A1E4A76900079F43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FFBA591E4A76900079F43D /* Assets.xcassets */; };
 		C3FFBA5D1E4A76900079F43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FFBA5B1E4A76900079F43D /* LaunchScreen.storyboard */; };
+		C3FFBA671E4A76AD0079F43D /* MJStoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFBA661E4A76AD0079F43D /* MJStoreButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		C3FFBA591E4A76900079F43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3FFBA5C1E4A76900079F43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3FFBA5E1E4A76900079F43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FFBA651E4A76AC0079F43D /* MJStoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJStoreButton.h; path = MjStoreButton/MJStoreButton.h; sourceTree = SOURCE_ROOT; };
+		C3FFBA661E4A76AD0079F43D /* MJStoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJStoreButton.m; path = MjStoreButton/MJStoreButton.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		C3FFBA491E4A76900079F43D /* MSStoreButton */ = {
 			isa = PBXGroup;
 			children = (
+				C3FFBA641E4A76A20079F43D /* MJStoreButton */,
 				C3FFBA4D1E4A76900079F43D /* AppDelegate.h */,
 				C3FFBA4E1E4A76900079F43D /* AppDelegate.m */,
 				C3FFBA501E4A76900079F43D /* ViewController.h */,
@@ -80,6 +84,15 @@
 				C3FFBA4B1E4A76900079F43D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3FFBA641E4A76A20079F43D /* MJStoreButton */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFBA651E4A76AC0079F43D /* MJStoreButton.h */,
+				C3FFBA661E4A76AD0079F43D /* MJStoreButton.m */,
+			);
+			name = MJStoreButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +170,7 @@
 				C3FFBA521E4A76900079F43D /* ViewController.m in Sources */,
 				C3FFBA4F1E4A76900079F43D /* AppDelegate.m in Sources */,
 				C3FFBA4C1E4A76900079F43D /* main.m in Sources */,
+				C3FFBA671E4A76AD0079F43D /* MJStoreButton.m in Sources */,
 				C3FFBA581E4A76900079F43D /* MSStoreButton.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
